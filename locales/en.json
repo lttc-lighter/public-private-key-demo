@@ -32,5 +32,11 @@
 	"Signing": "Signing",
 	"Transaction": "Transaction",
 	"Tx": "Tx",
-	"Verify": "Verify"
+	"Verify": "Verify",
+	"Public / Private": "Public / Private",
+	"Public and private Keys": "Public and private Keys",
+	"Signed Transactions": "Signed Transactions",
+	"Blockchain as a signed transactions database": "Blockchain as a signed transactions database",
+	"Signed Transaction": "Signed Transaction",
+	"Digital signature": "Digital signature"
 }

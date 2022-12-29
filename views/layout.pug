@@ -32,12 +32,12 @@ html(lang='nl')
       .navbar-collapse.collapse#collapsingNavbar
         ul.navbar-nav.ml-auto
           li.nav-item(class={active: page === 'keys'})
-            a.nav-link(href='/keys') #{__('Keys')} 
+            a.nav-link(href='/keys') #{__('Public and private Keys')} 
           li.nav-item(class={active: page === 'signatures'})
-            a.nav-link(href='/signatures') #{__('Signatures')} 
+            a.nav-link(href='/signatures') #{__('Digital signature')} 
           li.nav-item(class={active: page === 'transaction'})
-            a.nav-link(href='/transaction') #{__('Transaction')} 
+            a.nav-link(href='/transaction') #{__('Signed Transactions')} 
           li.nav-item(class={active: page === 'blockchain'})
-            a.nav-link(href='/blockchain') #{__('Blockchain')} 
+            a.nav-link(href='/blockchain') #{__('Blockchain as a signed transactions database')} 
 
     block content
